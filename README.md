@@ -89,6 +89,12 @@ https://www.youtube.com/watch?v=Zbm3hjPjQMk
 
 <img src='https://github.com/power19942/flutter-interview-questions/blob/main/img/stateful_build.png' alt="stateful_build"/>
 
+StatefulWidget이 build 메소드를 직접 가지지 않고 State이란 클래스에 따로 두는 이유는 Widget 클래스와 Widget의 하위 클래스의 모든 필드는 불변성을 가져야 하기 때문입니다.
+
+StatelessWidget은 build 메소드와 그 밖에 관련된 메소드들을 그 안에 직접 가지고 있습니다. 이것은 StatelessWidget 자체가 불변성을 가지기 때문입니다.
+
+StatefulWidget의 경우, 앱이 구동되는 동안 State의 정보가 변할 수 있고, 따라서 이러한 정보들은 모든 필드는 불변성을 띄어야 한다는 Widget 클래스의 조건을 만족할 수 없기 때문에 final 필드에 저장하기 적합하지 않습니다. 그렇기 때문에 State 클래스를 이용하는 것입니다. createState 메소드를 오버라이딩 해서 모든 상태 변화가 StatefulWidget이 아닌 State 클래스에서 일어나게끔 하면 됩니다.
+
 ---
 
 8.Dart에서 `pubspec` 파일은 무엇인가요?
