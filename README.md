@@ -1,22 +1,24 @@
-# Flutter complete interview questions with answers 
+# Flutter 인터뷰 질문과 답변들 
 
-this file contains a list of flutter interview questions with answers
+이 문서는 Flutter 인터뷰 관련 질문들과 그에 대한 답변들을 정리해놓은 것입니다.
 
-### note ###
+### 참고사항 ###
 
-these questions and answers are collected from different resources on the internet like stackoverflow, medium and other github repositories
+이 질문과 답변들은 스택오버플로우, 미디엄, 여타 Github 레포지토리 등 여러 곳에서 등장했던 것들을 모은 것입니다.
 
 ---
- Flutter Questions and Answers
+ Flutter 질문과 답변들
 ---
 
-1.What is the difference between a `StatelessWidget` and a `StatefulWidget` in Flutter?
+1.Flutter에서 `StatelessWidget`과 `StatefulWidget`의 차이점은 무엇인가요?
 
 Stateless Widget
-A stateless widget can not change their state during the runtime of an app which means it can not redraw its self while the app is running. Stateless widgets are immutable.
+
+`StatelessWidget`은 런타임 중에 상태를 변경할 수 없습니다.`StatelessWidget`은 불변성을 가지고 있어서 앱이 구동되는 동안 스스로 다시 그려질 수 없습니다.
 
 Stateful Widget
-A stateful widget can redraw itself multiple times, while the app is running which means its state is mutable. For example, when a button is pressed, the state of the widget is changed
+
+`StatefulWidget`은 런타임 중에 스스로 여러번 다시 그려질 수 있습니다. 즉, `StatefulWidget`은 자신의 상태를 변화시킬 수 있습니다. 예를 들어 버튼이 눌리면 해당 위젯의 상태가 변경됩니다.
 
 ---
 
