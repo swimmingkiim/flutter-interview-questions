@@ -64,17 +64,17 @@ Spacer 위젯은 flex 컨테이너 안에 있는 비어있는 공간들을 조�
 
 ---
 
-5.What is the difference between `hot restart` and `hot reload`?
+5.`hot restart`와 `hot reload`의 차이점을 말해보세요.
 
 
-What is Hot Reload in Flutter:
+Hot Reload:
 
-Flutter hot reload features works with combination of Small r key on command prompt or Terminal. Hot reload feature quickly compile the newly added code in our file and sent the code to Dart Virtual Machine. After done updating the Code Dart Virtual Machine update the app UI with widgets. Hot Reload takes less time then Hot restart. There is also a draw back in Hot Reload, If you are using States in your application then Hot Reload preservers the States so they will not update on Hot Reload our set to their default values
+Flutter에서 hot reload는 앱을 구동시킨 후 커멘드라인창이나 터미널에서 영어 소문자 r키를 누르면 작동합니다. Hot reload 기능은 새로 추가된 파일이나 변경된 코드를 재빠르게 컴파일한 후 Dart Virtual Machine으로 보냅니다. Dart Virtual Machine은 코드를 업데이트한 후 위젯과 함께 앱 UI를 업데이트 합니다. Hot reload는 Hot restart보다 더 적은 시간 안에 완료됩니다. 참고로, Hot reload는 실행되기 전 상태를 기억하기 때문에 Hot reload 후에도 상태는 초기화 되지 않고 그대로 보존됩니다.
 
 
-What is Hot Restart in Flutter:
+Hot Restart:
 
-Hot restart is much different than hot reload. In Hot restart it destroys the preserves State value and set them to their default. So if you are using States value in your application then After every hot restart the developer gets fully compiled application and all the states will set to their defaults. The app widget tree is completely rebuilt with new typed code. Hot Restart takes much higher time than Hot reload
+Hot restart는 Hot reload와 달리 기존 상태를 버리고 초기화 값으로 돌려놓습니다. 따라서 Hot restart 이후에는 모든 상태 값이 초기화 된 모습으로 돌아옵니다. App widget tree도 전부 다시 빌드됩니다. Hot restart는 Hot reload보다 더 많은 시간이 소요됩니다.
 
 ---
 
