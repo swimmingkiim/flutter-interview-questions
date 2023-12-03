@@ -111,7 +111,6 @@ Flutter는 네이티브 플랫폼의 canvas 기능만을 이용하여 UI와 모�
 
 10.Flutter에서 `Navigator`와 `Routes`를 설명해보세요.
 
-Navigation and routing are some of the core concepts of all mobile application, which allows the user to move between different pages. We know that every mobile application contains several screens for displaying different types of information. For example, an app can have a screen that contains various products. When the user taps on that product, immediately it will display detailed information about that product
 Navigation과 Routing은 모바일 어플리케이션 개발에서 핵심 개념 중 하나입니다. 이 두 가지는 유저가 서로 다른 페이지를 왔다갔다 할 수 있게끔 만들어 줍니다. 모바일 어플리케이션은 서로 다른 종류의 정보를 보여주는 여러개의 화면을 가지고 있습니다. 예를 들어, 앱에서는 여러가지 제품을 보여줄 수 있습니다. 유저가 특정 제품을 탭하면 제품의 상세 정보를 보여주는 페이지로 이동합니다.
 
 ---
