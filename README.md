@@ -103,9 +103,9 @@ pubspec 파일은 Flutter 프로젝트의 에셋과 의존성을 관리합니다
 
 ---
 
-9.How is Flutter native?
+9.어째서 Flutter가 native한가요?
 
-Flutter uses only the canvas of the native platform and draws the UI and all the components from scratch. All the UI elements look the same as native ones. This mainly reduces the burden of time for converting through some language to the native one and speeds up the UI rendering time. As a result, the UI performance is remarkably high
+Flutter는 네이티브 플랫폼의 canvas 기능만을 이용하여 UI와 모든 컴포넌트를 그립니다. 모든 UI 요소들은 네이티브와 똑같이 생겼습니다. 이를 통해 다른 언어에서 네이티브 언어로 변환할 때 걸리는 시간을 줄이고 UI 렌더링 속도를 올릴 수 있습니다. 따라서 UI 퍼포먼스가 매우 높습니다.
 
 ---
 
