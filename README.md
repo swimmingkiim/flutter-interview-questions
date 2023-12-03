@@ -27,14 +27,23 @@ Stateful Widget
 간단하게 설명하면 Flutter의 라이프 사이클을 아래와 같은 단계들을 거칩니다.
 
 createState()
+
 mounted == true
+
 initState()
+
 didChangeDependencies()
+
 build()
+
 didUpdateWidget()
+
 setState()
+
 deactivate()
+
 dispose()
+
 mounted == false
 
 <img src='https://github.com/power19942/flutter-interview-questions/blob/main/img/life_cycle.png' alt="life cycle"/>
