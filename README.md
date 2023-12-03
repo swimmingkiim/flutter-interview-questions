@@ -58,9 +58,9 @@ Flutter 웹을 컴파일링 할 때 dart2js 컴파일러를 통해 JavaScript �
 
 ---
 
-4.What is a `Spacer` widget?
+4.`Spacer` 위젯이 무엇인가요?
 
-Spacer manages the empty space between the widgets with flex container. Evenly with the Row and Column MainAxis alignment we can manage the space as well
+Spacer 위젯은 flex 컨테이너 안에 있는 비어있는 공간들을 조절할 때 사용합니다. Row 위젯과 Column 위젯의 mainAxisAlignment도 이와 비슷한 역할을 수행합니다.
 
 ---
 
