@@ -133,9 +133,9 @@ https://www.youtube.com/watch?v=SmTCmDMi4BY
 
 ---
 
-13.how can you update a listview dynamically?
+13.ListView를 동적으로 업데이트 하려면 어떻게 해야 합니까?
 
-By using setState to update the listview item source and rebuild the UI 
+setState를 이용해 ListView의 데이터를 업데이트 하면 UI가 다시 빌드됩니다.
 
 ---
 
