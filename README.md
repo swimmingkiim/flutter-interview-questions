@@ -116,8 +116,9 @@ Navigation과 Routing은 모바일 어플리케이션 개발에서 핵심 개념
 ---
 
 11.What is a `PageRoute`?
+11.`PageRoute`가 무엇인가요?
 
-Allow us to add animation transaction to the route
+페이지를 이동할 때 애니메이션 효과를 가능하게 해줍니다.
 https://github.com/divyanshub024/Flutter-route-transition
 
 ---
