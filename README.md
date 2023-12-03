@@ -124,13 +124,10 @@ https://github.com/divyanshub024/Flutter-route-transition
 ---
 
 
-12.Explain `async`, `await` and `Future`?
+12.`async`, `await`,`Future`를 설명해보세요.
 
 
-Async means that this function is asynchronous and you might need to wait a bit to get its result.
-Await literally means - wait here until this function is finished and you will get its return value.
-Future is a type that ‘comes from the future’ and returns value from your asynchronous function. It can complete with success(.then) or with
-an error(.catchError)
+`async`는 해당 함수가 비동기적이라는 것을 나타냅니다. 따라서 함수의 결과를 얻기 위해 기다려야 한다는 것을 의미합니다. `await`은 영어 단어의 뜻 그대로 해당 함수가 끝날 때까지 기다렸다가 반환되는 값을 받을 수 있다는 것을 의미합니다. `Future`는 미래에 반환될 값을 나타내는 타입니다. 비동기 함수로부터 반환되는 값의 타입입니다. `Future`는 성공(then)하거나 에러와 함께 실패(catchError)합니다.
 
 https://www.youtube.com/watch?v=SmTCmDMi4BY
 
