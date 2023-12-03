@@ -23,8 +23,10 @@ Stateful Widget
 ---
 
 2.Explain the `Stateful Widget Lifecycle`?
+2.`Stateful Widget Lifecycle`에 대해 설명해보세요.
 
-The lifecycle has the following simplified steps:
+간단하게 설명하면 Flutter의 라이프 사이클을 아래와 같은 단계들을 거칩니다.
+
 createState()
 mounted == true
 initState()
