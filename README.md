@@ -79,21 +79,21 @@ Hot restart는 Hot reload와 달리 기존 상태를 버리고 초기화 값으�
 ---
 
 
-6.What is an `InheritedWidget`?
+6.`InheritedWidget`이 무엇인가요?
 
 https://www.youtube.com/watch?v=Zbm3hjPjQMk
 
 ---
 
-7.Why is the build() method on State and not StatefulWidget?
+7.StatefulWidget에서 build 메소드는 왜 StatefulWidget이 아니라 State 클래스에 존재하나요?
 
 <img src='https://github.com/power19942/flutter-interview-questions/blob/main/img/stateful_build.png' alt="stateful_build"/>
 
 ---
 
-8.What is a `pubspec` file in Dart?
+8.Dart에서 `pubspec` 파일은 무엇인가요?
 
-The pubspec file manages the assets and dependencies for a Flutter app.
+pubspec 파일은 Flutter 프로젝트의 에셋과 의존성을 관리합니다.
 
 ---
 
